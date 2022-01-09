@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewcontroller.SubscriptionC">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="450.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="450.0" text="Register for Java Hardcore Training" textAlignment="CENTER">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="450.0">
+         <children>
+            <Label text="First Name:" />
+            <TextField fx:id="firstNameTxt"/>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="450.0">
+         <children>
+            <Label text="Last Name:" />
+            <TextField fx:id="surNameTxt"/>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="450.0">
+         <children>
+            <CheckBox mnemonicParsing="false" text="JavaFX - Properties and Bindings" fx:id="optionProperties"/>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="450.0">
+         <children>
+            <CheckBox mnemonicParsing="false" text="JavaFX - Concurrency" fx:id="optionConcurrency"/>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="450.0">
+         <children>
+            <CheckBox mnemonicParsing="false" text="Java - Master of the Universe" fx:id="optionMOTU"/>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="450.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Submit" textAlignment="CENTER" fx:id="submitBtn"/>
+         </children>
+      </HBox>
+   </children>
+</VBox>
